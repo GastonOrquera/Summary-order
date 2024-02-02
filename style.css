@@ -138,6 +138,7 @@
     font-size: 1rem;
     margin-bottom: 1.8rem;
     transition: 2ms;
+    width: max-content;
 }
 
 .conteinerAllContent .conteinerContent .btn-cancel-order:hover {
