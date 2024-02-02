@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500&family=Teko:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-1: 'Teko', sans-serif;
+    --font-2: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.conteinerAllContent {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteinerAllContent .conteinerContent {
+    background-color: #FFFFFF;
+    width: 22rem;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.conteinerAllContent .conteinerContent .imgBackground {
+    background-image: url(images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 10rem;
+    width: 100%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.conteinerAllContent .conteinerContent h1 {
+    font-family: var(--font-1);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: #1F2F50;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.conteinerAllContent .conteinerContent .p-one {
+    color: #A3ABBA;
+    font-family: var(--font-2);
+    padding: .8rem 2rem;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.conteinerAllContent .conteinerContent .boxAnnualPlan {
+    /* background-color: #5f74dd; */
+    background-color: #F8F9FE;
+    margin: 0 2rem;
+    padding: .8rem 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+}
+
+.conteinerAllContent .conteinerContent .boxAnnualPlan .flexColumn {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.conteinerAllContent .conteinerContent .boxAnnualPlan .flexColumn h3 {
+    font-family: var(--font-1);
+    color: #1F2F50;
+    margin-left: .8rem;
+}
+
+.conteinerAllContent .conteinerContent .boxAnnualPlan .imgIcon {
+    background-image: url(images/icon-music.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2rem;
+    width: 2rem;
+}
+
+
+.conteinerAllContent .conteinerContent .boxAnnualPlan p {
+    color: #A3ABBA;
+    font-family: var(--font-2);
+    font-size: .8rem;
+    margin-left: .8rem;
+}
+
+.conteinerAllContent .conteinerContent .boxAnnualPlan .btn-change {
+    position: relative;
+    left: 38%;
+    font-family: var(--font-2);
+    font-size: .8rem;
+    color: #5D50C4;
+    transition: 2ms;
+}
+
+.conteinerAllContent .conteinerContent .boxAnnualPlan .btn-change:hover {
+    color: #7A72CA;
+}
+
+.conteinerAllContent .conteinerContent .btn-proceed {
+    background-color: #382AE1;
+    padding: .6rem 2rem;
+    margin: 1rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-family: var(--font-1);
+    text-decoration: none;
+    color: #f0f0f7;
+    font-size: 1.1rem;
+    transition: 2ms;
+}
+
+.conteinerAllContent .conteinerContent .btn-proceed:hover {
+    background-color: #766CF1;
+}
+
+.conteinerAllContent .conteinerContent .btn-cancel-order {
+    color: #878991;
+    font-family: var(--font-1);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 1.8rem;
+    transition: 2ms;
+}
+
+.conteinerAllContent .conteinerContent .btn-cancel-order:hover {
+    color: #0A102E;
+}
