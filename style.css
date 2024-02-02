@@ -136,9 +136,9 @@
     text-align: center;
     text-decoration: none;
     font-size: 1rem;
-    margin-bottom: 1.8rem;
     transition: 2ms;
-    width: max-content;
+    margin: auto auto;
+    margin-bottom: 1.8rem;
 }
 
 .conteinerAllContent .conteinerContent .btn-cancel-order:hover {
